@@ -8,24 +8,37 @@
     <link rel="stylesheet" href="/assets/styles/mdhl.css">
 </head>
 <body>
-    <img src="assets/image/logo_mighty_ducks-01.png" alt="logo" height="200">
-    <h1>Mighty Ducks Hockey League</h1>
-    <a href="index.html">Home |</a>
-    <a href="pages/about.html">About MDHL |</a>
-    <a href="pages/contact.html">contact</a>
-
-    <h2>Upcoming Events</h2>
-    <img src="assets/image/hockey_1.jpg" alt="image_1" height="300">
-    <ul>
-        <li> August 4
-            <ul><li>MDSL Fundraiser</li></ul>
-        </li>
-        <li> August 16
-            <ul><li>Season Kick-off: Meet the Teams</li></ul>
-        </li>
-        <li> September 1
-            <ul><li>First Game of the Season (Check Game Schedule for details)</li></ul>
-        </li>
-    </ul>
+    <header>
+        <nav class="banner-ctn">
+            <div class="home-banner">
+                <h1 class="banner-title">Mighty Ducks Hockey League</h1>
+            </div>
+            <div class="section-title-ctn">
+                <h2 class="section-title">Upcoming Events</h2>
+                <img class="logo" src="/assets/image/logo_mighty_ducks-01.png" alt="Logo">
+            </div>
+        </nav>
+    </header>
+    <main id="main-ctn">
+        <div class="navbar">
+            <a class="navbar-link active" href="index.html">Home</a>
+            <a class="navbar-link" href="pages/about.html">About MDHL</a>
+            <a class="navbar-link" href="pages/contact.html">contact</a>
+        </div>
+        <section class="event-ctn">
+                <article class="event-item">
+                    <h3 class="event-item-title italic bold">August 4</h3>
+                    <p class="event-item-p bold sangria">MDSL Fundraiser</p>
+                </article>
+                <article class="event-item"> 
+                    <h3 class="event-item-title italic bold">August 16</h3>
+                    <p class="event-item-p bold sangria">Season Kick-off: Meet the Teams</p>
+                </article>
+                <article class="event-item"> 
+                    <h3 class="event-item-title italic bold">September 1</h3>
+                    <p class="event-item-p bold sangria">First Game of the Season (Check Game Schedule for details)</p>
+                </article>
+        </section>
+    </main>
 </body>
 </html>

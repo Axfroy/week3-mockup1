@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="/assets/styles/mdhl.css">
 </head>
 <body>
     <header>
-        <img src="../assets/image/logo_mighty_ducks-01.png" alt="logo" height="200">
-
-        <h1>Mighty Ducks Hockey League</h1>
-        <a href="../index.html">Home |</a>
-        <a href="./about.html">About MDHL |</a>
-        <a href="./contact.html">contact</a>
+        <nav class="banner-ctn">
+            <div class="home-banner">
+                <h1 class="banner-title">Mighty Ducks Hockey League</h1>
+            </div>
+            <div class="section-title-ctn">
+                <h2 class="section-title">Contact</h2>
+                <img class="logo" src="/assets/image/logo_mighty_ducks-01.png" alt="Logo">
+            </div>
+        </nav>
     </header>
-    <main>
-        <img src="../assets/image/hockey_3.jpg" alt="img3" height="300">
-
-        <p>Please email us at mdhl@chihockey.org</p>
-        <p>We reply to your email as soon as we can.</p>
+    <main id="main-ctn">
+        <div class="navbar">
+            <a class="navbar-link" href="../index.html">Home</a>
+            <a class="navbar-link" href="/pages/about.html">About MDHL</a>
+            <a class="navbar-link active" href="/pages/contact.html">contact</a>
+        </div>
+        <section class="event-ctn start">
+                <article class="event-item">
+                    <p class="event-item-p">Please email us at <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a></p>
+                    <p class="event-item-p">We reply to you email</p>
+                </article>
+        </section>
     </main>
 </body>
 </html>
