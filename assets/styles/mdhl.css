@@ -48,8 +48,11 @@ body{
 
 /* MAIN START */
 #main-ctn{
-    display: flex;
     padding: 3% 10% 0 5%;
+}
+
+.flex{
+    display: flex;
 }
 
 .navbar{
@@ -106,3 +109,10 @@ body{
     justify-content: flex-start;
 }
 /* MAIN ENDS */
+
+.schedule-ctn{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    background: 0;
+}
