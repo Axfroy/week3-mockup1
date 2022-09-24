@@ -13,7 +13,11 @@ body{
 
 /* BANNER START */
 .home-banner{
-    background-image: url(../image/design1_image1.jpg);
+<<<<<<< Updated upstream
+    background-image: url(./image/design1_image1.jpg);
+=======
+    background-image: url(assets/image/design1_image1.jpg);
+>>>>>>> Stashed changes
     background-position-y: 60%;
     background-size: cover;
     background-repeat: no-repeat;
