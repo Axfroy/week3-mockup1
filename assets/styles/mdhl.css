@@ -20,6 +20,14 @@ body{
     height: 40vh;
 }
 
+.home-banner-page{
+    background-image: url(../assets/image/design1_image1.jpg);
+    background-position-y: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
 .section-title-ctn{
     background-color: rgb(27, 27, 27);
     margin-top: 5px;
