@@ -11,7 +11,7 @@ body{
     margin: 2% 5% 0;
 }
 
-/* BANNER START */
+/* BANNER start */
 .home-banner{
     background-image: url(assets/image/design1_image1.jpg);
     background-position-y: 60%;
@@ -21,7 +21,7 @@ body{
 }
 
 .section-title-ctn{
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     margin-top: 5px;
 }
 
